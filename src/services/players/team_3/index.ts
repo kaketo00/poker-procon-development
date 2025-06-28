@@ -16,7 +16,7 @@ class TsPlayer {
   private betUnit: number; // 賭けポイントを追加する単位
 
   private win: number; // 勝数
-
+//書き込み
   constructor(id: string, name: string) {
     this.logger = getLogger({ group: 'player', gameId: id, playerName: name });
     this.id = id;
